@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod o+rx /etc/letsencrypt/archive
+chmod o+rx /etc/letsencrypt/live
+chmod +r -R /etc/letsencrypt/archive
